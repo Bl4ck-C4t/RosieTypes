@@ -4,11 +4,19 @@
 
 body {
     margin: 0;
+    padding: 0;
+    background-color: #61dafb;
 }
 
 .container {
     margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
 }
 
 .nav {
@@ -25,17 +33,24 @@ body {
     font-size: 2rem;
 }
 
+#start-button:hover {
+    background-color: orange;
+    border-radius: 8px;
+    width: 45%;
+    transition: all 0.8s ease;
+}
+
 #start-button {
     padding: 1rem 5rem;
     width: 40%;
     margin: 10rem 1rem;
-    color: black;
     border: 2px solid #4CAF50;
-    background-color: orange;
+    background-color: yellow;
     font-size: 2rem;
-    border-radius: 8px;
+    color: #346cba;
     text-align: center;
     cursor: pointer;
+    transition: background-color 0.8s ease-out;
 }
 
 .nav ul {

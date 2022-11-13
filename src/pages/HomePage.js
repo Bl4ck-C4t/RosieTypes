@@ -14,6 +14,9 @@ export default function HomePage(){
                 Use the button below to find out which Rosie type are you!
             </div>
             <button id="start-button" onClick={beginTest}> Begin Test </button>
+            <p id="fine-print">By taking this test you consent to not being mad at the creator for a period
+            longer then 2-3 business days.
+            </p>
         </>
     );
 }

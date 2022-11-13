@@ -1,5 +1,6 @@
 import React from 'react';
 import questions from "../questions/questions";
+import {Link} from "react-router-dom";
 
 export default class TestPage extends React.Component{
 
@@ -38,7 +39,12 @@ export default class TestPage extends React.Component{
     onTestComplete() {
         // console.log(this.types)
         // console.log(this.points)
-        return <h1>Your type is: {this.determineType()} Rosie!</h1>
+        const type = this.determineType()
+        return <>
+            <h1>Your type is: {type} Rosie!</h1>
+            <Link to={"/"+ type.toLowerCase()}> <h3> Find out more about your type </h3> </Link>
+        </>
+
     }
 
     render() {

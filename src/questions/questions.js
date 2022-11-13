@@ -290,6 +290,23 @@ let questions = [
         ]
     },
     {
+        title: "Which environment do you prefer more?",
+        options: [
+            "City", "Farm - I love helping around and feeding the animals",
+            "Suburbs", "Home", "Forest"
+
+        ],
+        points: [
+            [0, 0, 0, 2, 0, -1, 0, 0, 2, 0],
+            [2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 0, 1, 0, 1, 1, 0, 0, 0, 0],
+            [0, 0, 3, 0, 0, 2, 0, 0, 0, 0],
+            [0, 0, 0, 0, 0, 3, 0, 0, 0, 2],
+
+
+        ]
+    },
+    {
         title: "Did you enjoy the quiz?",
         options: [
             "I could have completed sooo many deadlines instead of doing this.",

@@ -58,7 +58,8 @@ let questions = [
             "I have too much work to go to these...",
             "Di-d... you say a l-lot of people? -hides under bed-",
             "I would go if it sounds very fun! I need some distraction :D",
-            "I could go, but only if I can learn something new or useful from it."
+            "I could go, but only if I can learn something new or useful from it.",
+            "I would just refuse."
 
         ],
         points: [
@@ -67,6 +68,7 @@ let questions = [
             [0, 0, 2, 0, 0, 0, 1, 0, 0, 0],
             [0, 0, 0, 0, 0, 0, 0, 0, 2, 0],
             [0, 1, 0, 0, 0, 0, 0, 2, 0, 0],
+            [0, 2, 0, 3, 0, 0, 0, 0, 0, 0],
         ]
     },
     {
@@ -81,7 +83,7 @@ let questions = [
         points: [
             [0, 0, 0, 0, 1, 0.1, 0, 0, 0, 0],
             [0, 0, 0, 0, 0, 0.6, 0, 0, 0, 3],
-            [0, 1, 1, 0, 0, 1, 0, 0, 0, 0],
+            [0, 1, 1, 0, 0, 1, 0, 2, 0, 0],
             [0, 0, 0, 0, 0, 0, 0, 0, 3, 0],
 
         ]
@@ -118,7 +120,7 @@ let questions = [
         ]
     },
     {
-        title: "I see a bank robber running to escape, but he tripps and falls.",
+        title: "I see a bank robber running to escape, but he trips and falls.",
         options: [
            "I ask him if he is ok, and help him get up.... I just can't help it D:",
             "I teleport home and erase this from my mind.",
@@ -128,7 +130,7 @@ let questions = [
         points: [
             [3, 0, 0, 0, 0, 1, 0, 0, 0, 0],
             [0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
-            [0, 3, 0, 0, 0, 0, 0, 0, 0, 0],
+            [0, 3, 0, 0, 0, 0, 0, 2, 0, 0],
             [0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
 
 
@@ -153,12 +155,14 @@ let questions = [
         options: [
             "JINGLE BELLSSSSS!!!",
             "I associate it with stressful, unfinished deadlines 0_0.",
-            "The perfect time to make new friends :)"
+            "The perfect time to make new friends :)",
+            "Just a normal holiday."
         ],
         points: [
             [0, 0, 0, 0, 0, 1, 0, 0, 3, 0],
             [0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
             [0, 0, 0, 3, 0, 0, 0, 0, 0, 0],
+            [0, 1, 0, 0, 0, 1, 0, 2, 0, 0],
         ]
     },
     {

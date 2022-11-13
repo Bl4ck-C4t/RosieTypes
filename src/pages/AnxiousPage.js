@@ -3,7 +3,7 @@ import anxious from '../type_pics/anxious.png'
 export default function AnxiousPage(){
     return <div className="type-description">
         <h1>Anxious Rosie</h1>
-        <p>Quote: <b><i>"Too many people ;-;"</i></b></p>
+        <p>Quote: <b><i>"I'm too timid..."</i></b></p>
         <img src={anxious}/>
         <div className="description">
             <p>The anxious type often worries about everything.

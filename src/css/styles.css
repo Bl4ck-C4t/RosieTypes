@@ -15,16 +15,11 @@ body {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    width: 98%;
     height: 100%;
 }
 
 #fine-print {
     font-size: 6px;
-}
-
-.pros-list {
-    text-align: left;
 }
 
 .pros {
@@ -40,6 +35,7 @@ body {
 .description {
     /*font-size: 1em;*/
     font-family: "Arial Black";
+    text-align: left;
 }
 
 img {

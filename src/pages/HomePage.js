@@ -9,7 +9,7 @@ export default function HomePage(){
 
     return (
         <>
-            <h1>Welcome to the Rosie types website!!</h1>
+            <h1>Welcome to the Rosie's 10 personalities website!!</h1>
             <div id="site-info">
                 Use the button below to find out which Rosie type are you!
             </div>

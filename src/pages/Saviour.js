@@ -9,6 +9,7 @@ export default function SaviourPage(){
             <p>
             The saviour loves helping others accomplish their goals.
                 They hate seeing anyone suffer and have a generally positive view of humanity.
+                The saviour type would stop at nothing to help those unfortunate souls who need it most!
             </p>
             <div className="pros-list">
                 <b>Pros:</b>

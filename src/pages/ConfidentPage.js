@@ -8,7 +8,8 @@ export default function ConfidentPage(){
         <div className="description">
             <p>
                 The confident type doesn't worry about almost anything. They belive in the idea of
-                'live and let live'. The confident rosie has no problems dealing with most things,
+                'live and let live'. Loves to make friends and get other's point of view,
+                The confident rosie has no problems dealing with most things,
                 however they often feel like they are missing something.
             </p>
             <div className="pros-list">

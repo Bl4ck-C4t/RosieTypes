@@ -12,6 +12,8 @@ export default class TestPage extends React.Component{
         this.types = ["Saviour", "Villain", "Anxious", "Confident", "Workaholic", "True", "Enigma", "Smart",
             "Indulging", "Romantic"]
         this.points = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+        this.questions = questions.sort(() => Math.random() - 0.5)
     }
 
     onAnswerClick(question, q_ind) {
@@ -48,10 +50,10 @@ export default class TestPage extends React.Component{
     }
 
     render() {
-        if (this.state.currentQuestionIndex >= questions.length)
+        if (this.state.currentQuestionIndex >= this.questions.length)
             return this.onTestComplete();
 
-        let currentQuestion = questions[this.state.currentQuestionIndex];
+        let currentQuestion = this.questions[this.state.currentQuestionIndex];
         return (
             <div id="test-box">
                 <h1>{currentQuestion.title}</h1>

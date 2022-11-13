@@ -4,7 +4,7 @@ export default function SaviourPage(){
     return <div className="type-description">
         <h1>Saviour Rosie</h1>
         <p>Quote: <b><i>"It's in my nature to help!"</i></b></p>
-        <img src={saviour}/>
+        <img alt="[Savior image]" src={saviour}/>
         <div className="description">
             <p>
             The saviour loves helping others accomplish their goals.

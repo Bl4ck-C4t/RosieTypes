@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RosieTypes/static/css/main.9591cae4.css",
-    "main.js": "/RosieTypes/static/js/main.9bbbf780.js",
+    "main.js": "/RosieTypes/static/js/main.63cb6c2b.js",
     "static/js/787.30ff5ea0.chunk.js": "/RosieTypes/static/js/787.30ff5ea0.chunk.js",
     "static/media/induldge.png": "/RosieTypes/static/media/induldge.b1b473518f23865de4bf.png",
     "static/media/enigma.png": "/RosieTypes/static/media/enigma.190904a9bcd01f34d214.png",
@@ -15,11 +15,11 @@
     "static/media/savioir.png": "/RosieTypes/static/media/savioir.a37bd73ac185c7ad8148.png",
     "index.html": "/RosieTypes/index.html",
     "main.9591cae4.css.map": "/RosieTypes/static/css/main.9591cae4.css.map",
-    "main.9bbbf780.js.map": "/RosieTypes/static/js/main.9bbbf780.js.map",
+    "main.63cb6c2b.js.map": "/RosieTypes/static/js/main.63cb6c2b.js.map",
     "787.30ff5ea0.chunk.js.map": "/RosieTypes/static/js/787.30ff5ea0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9591cae4.css",
-    "static/js/main.9bbbf780.js"
+    "static/js/main.63cb6c2b.js"
   ]
 }

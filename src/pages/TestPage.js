@@ -12,8 +12,9 @@ export default class TestPage extends React.Component{
         this.types = ["Saviour", "Villain", "Anxious", "Confident", "Workaholic", "True", "Enigma", "Smart",
             "Indulging", "Romantic"]
         this.points = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
+        let lastQ = questions.pop();
         this.questions = questions.sort(() => Math.random() - 0.5)
+        this.questions.push(lastQ)
     }
 
     onAnswerClick(question, q_ind) {
@@ -57,6 +58,7 @@ export default class TestPage extends React.Component{
         return (
             <div id="test-box">
                 <h1>{currentQuestion.title}</h1>
+                <h4 style={{color: 'yellow'}}>{this.state.currentQuestionIndex+1 + "/ " + this.questions.length}</h4>
                 <div id="answers">
                     {
                         currentQuestion.options.map(

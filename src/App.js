@@ -19,8 +19,9 @@ function App() {
       <>
           <Navbar />
           <div className="container">
+
               <Routes>
-                  <Route path="/" element={ <HomePage /> } />
+                  <Route path="/:path(/|RosieTypes)" element={ <HomePage /> } />
                   <Route path="/test" element={ <TestPage /> } />
                   <Route path="/anxious" element={ <AnxiousPage /> } />
                   <Route path="/saviour" element={ <SaviourPage /> } />
